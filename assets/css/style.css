@@ -1,0 +1,436 @@
+.test {
+    background-color: #f9f893;
+    display:inline-block;
+    height:120px;
+    width:100%;
+    color:red;
+}
+
+
+   
+
+/*-----------coloring-----*/
+.ui-menu-color-home{
+    background-color:#333;
+}
+
+.ui-menu-color-music{
+    background-color:#21b7a8;
+}
+
+.ui-menu-color-contact{
+    background-color:#1bb725;
+    
+}
+
+.ui-menu-color-download{
+    background-color:#964ab2;
+}
+
+#sect-color-back{
+    background-color:#e89725;
+}
+
+ul{
+    color:orange;
+    font-size:20px;
+    
+}
+mark{
+    color:black;
+}
+
+
+td a{
+    color:#ff00e9;
+    text-decoration: underline;
+}
+
+.mark-1{
+    background-color:#41a39f;
+    color:white;
+    border-radius:50%;
+}
+
+.album-title{
+    color:white;
+    text-align:center;
+    text-decoration: underline;
+    margin:0;
+   
+}
+
+.art th{
+    text-align:center;
+    color:white;
+    background-color:blue;
+}
+
+.contact-page{
+    background-color:#484f47;
+    
+   
+}
+
+/*----------special paddings----*/
+h5{
+    text-align:center;
+}
+
+.video-1{
+    margin-top:20px;
+    margin-left:30px;
+    width:100vw;
+}
+
+#monk-head{
+margin-top:0px;}
+
+#music-vid{
+    margin:0;
+    text-decoration: underline;
+    color:white;
+    
+}
+
+.art td {
+    padding:20px;
+    background-color:blue;
+}
+
+.art table{
+    width:100%;
+    margin-top:20px;
+}
+
+/*-----------------header----*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+#home-style {
+    
+    padding:0;
+   margin:0;
+}
+
+
+/*---------heading-----*/
+/*--------taken from resume to style navbar----*/
+.banner-image{
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height:460px;
+    padding-bottom:0px;
+ 
+   
+}
+
+.menuitem{
+    height:120px;
+    margin:0px;
+    text-align: center;
+}
+
+.menuitem a {
+   width: 100%;
+    text-decoration: none;
+    color:#ffffff;
+    height:120px;
+}
+
+.menuitem a i {
+    padding-top: 40px;
+    display:block;
+    color:#fafafa;
+    font-size:26px;
+}
+
+
+.menuitem span {
+    display:block;
+    width: 100%;
+    padding-top:5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+/*----*/
+/*--------------section-----*/
+
+#wrap{
+    width:100%;
+}
+
+
+h3{
+    text-align: center;
+    color:#0237f7;
+}
+
+.event-list{
+    border-radius:12px;
+    border:1px solid black;
+    text-align:center;
+    background-color:#525760;
+}
+
+
+.sect-para{
+    width:100%;
+    color:#ffffff;
+    padding-left:10px;
+   text-align:center;
+    
+}
+
+.example-off{
+    color:#ffffff;
+    font-size: 18px;
+    text-decoration: underline;
+    
+    padding-left:30px;
+}
+
+
+.wedding-offer{
+    color:#c4dbff;
+   text-align:center;
+   font-size:20px;
+}
+
+.cost{
+    display:none;
+color:#de04f7;
+    
+}
+
+
+.wedding-cost:hover .cost{
+    /*-----------stack overflow authour spirfit-----*/
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    animation: fade 1s;
+}
+/*---*/
+
+
+#wedding-off{
+    text-align:center;
+    color:#0237f7;
+    text-decoration:underline;
+    font-family:sans-serif;
+    font-size: 25px;
+}
+
+#band{
+    text-align:center;
+    color:white;
+    background-color:purple;
+    padding-bottom:20px;
+}
+
+
+#band2
+{
+   
+    text-decoration:underline;
+    
+}
+
+
+.band-img{
+    width:100%;
+    height:50%;
+}
+
+#band-space{
+    width:100%;
+    display:inline-block;
+    padding-left:15px;
+    display:flex;
+}
+
+.band-pro{
+    color:white;
+    width:25%;
+    border:1px solid black;
+    overflow: auto;
+}
+
+.band-pic{
+    width:100%;
+    height:auto;
+}
+
+/*-------Music page---*/
+
+
+
+.art{
+    background-color:purple;
+   overflow-x: auto;
+    width:100%;
+    height:auto;
+}
+
+.asides{
+    background-color:blue;
+    width:100%;
+    height:auto;
+    overflow-x: auto;
+}
+
+.albums-covers{
+    height:auto;
+    width:100%;
+    
+    background-color:yellow;
+}
+
+/*------contact form---*/
+.Contact-heading{
+    text-align:center;
+    color:white;
+    text-decoration:underline;
+    font-size:22px;
+    margin-top:0px;
+    
+}
+
+#head-title{
+    color:orange;
+    padding-top:20px;
+    letter-spacing:5px;
+}
+
+#sub-button{
+   color:white;
+   background-color:#1b6004;
+   border-radius:20px;
+}
+
+form{
+    padding:50px;
+}
+
+.hidden-but{
+    color:#1b6004;
+}
+
+#sub-button{
+    padding-bottom:0px;
+}
+
+#sub-button:hover {
+    background-color:#113505;
+    color:red;
+    
+}
+/*---------footer--------*/
+footer {
+    background-color:#fad323;
+    margin:0px;
+    min-height:200px;
+    display:block;
+}
+
+#foot-marg{
+    padding-top:40px;
+}
+
+#cont-ad-head{
+    text-align:center;
+    text-transform: uppercase;
+    margin-top:0px;
+    
+}
+
+.Cont-ad{
+    text-align:center;
+    color:#06e278;
+    letter-spacing: 2px;
+    margin-top:10px;
+}
+
+.phone-ad{
+    text-align:center;
+    text-decoration: none;
+    Color:#06e278;
+}
+
+.phone-ad i {
+    color:#06e278;
+}
+
+.phone-ad i a {
+    text-decoration: none;
+    color:#06e278;
+    
+}
+
+#sym-soc {
+    display:inline-block;
+    padding-left:30%;
+ 
+}
+
+.sym-social i{
+    height:40px;
+    width:40px;
+    border-radius:40px;
+    background-color:#ed0b00;
+    color:#000005;
+    padding-top:12px;
+    margin:30px;
+}
+
+.center-logos{
+   margin-left:10px;
+   float:right;
+}
+
+.sym-social  a:hover i {
+    background-color:#751504;
+}
+
+/*--------media queries-----*/
+@media (max-width:640px){
+    .video-1{ width:auto;
+    }
+    }
+    
+    @media (max-width:768px){
+       #band-space {
+    display:block;
+      width:100vw;
+      
+    }
+    }
+    
+    
+    
+    
+    
+    /*-----------stack overflow authour spirfit-----*/
+    
+    @keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+    
+  
